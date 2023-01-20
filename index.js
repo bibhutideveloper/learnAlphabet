@@ -1,5 +1,5 @@
 function display(){
-    var alphabet=document.getElementById("alpha").value;
+    var alphabet=document.getElementById("alpha").value.toLowerCase();
     console.log(alphabet);
     switch(alphabet){
         case 'a':{
